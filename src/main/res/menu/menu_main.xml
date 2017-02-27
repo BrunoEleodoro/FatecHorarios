@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.brunoeleodoro.com.fatechorarios.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Mudar curso/semestre"
+        app:showAsAction="never"/>
+
+    <!-- Field[] fields = YourClassName.class.getFields(); -->
+    <item
+        android:id="@+id/problem"
+        android:orderInCategory="100"
+        android:title="Informar erro"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        app:showAsAction="never"/>
+</menu>

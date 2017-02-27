@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Fatec Horários</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="lista">
+
+        <item>ADS 1º sem - Manhã</item>
+        <item>ADS 2º sem - Manhã</item>
+        <item>ADS 3º sem - Manhã</item>
+        <item>ADS 4º sem - Manhã</item>
+        <item>ADS 5º sem - Manhã</item>
+        <item>ADS 6º sem - Manhã</item>
+
+        <item>ADS 1º sem - Vespertino</item>
+        <item>ADS 2º sem - Vespertino</item>
+        <item>ADS 3º sem - Vespertino</item>
+        <item>ADS 4º sem - Vespertino</item>
+        <item>ADS 5º sem - Vespertino</item>
+        <item>ADS 6º sem - Vespertino</item>
+
+        <item>Gestão Empresarial 1º sem - Manhã</item>
+        <item>Gestão Empresarial 2º sem - Manhã</item>
+        <item>Gestão Empresarial 3º sem - Manhã</item>
+        <item>Gestão Empresarial 4º sem - Manhã</item>
+        <item>Gestão Empresarial 5º sem - Manhã</item>
+        <item>Gestão Empresarial 6º sem - Manhã</item>
+
+        <item>Gestão Empresarial 1º sem - Vespertino</item>
+        <item>Gestão Empresarial 2º sem - Vespertino</item>
+        <item>Gestão Empresarial 3º sem - Vespertino</item>
+        <item>Gestão Empresarial 4º sem - Vespertino</item>
+        <item>Gestão Empresarial 5º sem - Vespertino</item>
+        <item>Gestão Empresarial 6º sem - Vespertino</item>
+
+        <item>Jogos Digitais 1º sem - Noturno</item>
+        <item>Jogos Digitais 2º sem - Noturno</item>
+        <item>Jogos Digitais 3º sem - Noturno</item>
+        <item>Jogos Digitais 4º sem - Noturno</item>
+        <item>Jogos Digitais 5º sem - Noturno</item>
+        <item>Jogos Digitais 6º sem - Noturno</item>
+
+        <item>Logistica 1º sem - Manhã</item>
+        <item>Logistica 2º sem - Manhã</item>
+        <item>Logistica 3º sem - Manhã</item>
+        <item>Logistica 4º sem - Manhã</item>
+
+        <item>Logistica 6º sem - Vespertino</item>
+
+        <item>Logistica 1º sem - Noturno</item>
+        <item>Logistica 2º sem - Noturno</item>
+        <item>Logistica 3º sem - Noturno</item>
+        <item>Logistica 4º sem - Noturno</item>
+        <item>Logistica 5º sem - Noturno</item>
+        <item>Logistica 6º sem - Noturno</item>
+
+        <item>Têxtil e Moda 1º sem - Manhã</item>
+        <item>Têxtil e Moda 2º sem - Manhã</item>
+        <item>Têxtil e Moda 3º sem - Manhã</item>
+        <item>Têxtil e Moda 4º sem - Manhã</item>
+
+        <item>Segurança da informação 1º sem - Manhã</item>
+        <item>Segurança da informação 2º sem - Manhã</item>
+        <item>Segurança da informação 3º sem - Manhã</item>
+        <item>Segurança da informação 4º sem - Manhã</item>
+        <item>Segurança da informação 5º sem - Manhã</item>
+        <item>Segurança da informação 6º sem - Manhã</item>
+
+        <item>Segurança da informação 1º sem - Noturno</item>
+        <item>Segurança da informação 2º sem - Noturno</item>
+        <item>Segurança da informação 3º sem - Noturno</item>
+        <item>Segurança da informação 4º sem - Noturno</item>
+        <item>Segurança da informação 5º sem - Noturno</item>
+        <item>Segurança da informação 6º sem - Noturno</item>
+
+        <item>Produção Textil 1º sem - Noturno</item>
+        <item>Produção Textil 2º sem - Noturno</item>
+        <item>Produção Textil 3º sem - Noturno</item>
+        <item>Produção Textil 4º sem - Noturno</item>
+        <item>Produção Textil 5º sem - Noturno</item>
+        <item>Produção Textil 6º sem - Noturno</item>
+    </string-array>
+    <string-array name="dias">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+    </string-array>
+
+    <string-array name="dias2">
+    <item>Segunda</item>
+    <item>Terça</item>
+    <item>Quarta</item>
+    <item>Quinta</item>
+    <item>Sexta</item>
+        <item>Sábado</item>
+</string-array>
+</resources>

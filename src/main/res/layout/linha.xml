@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Eletiva I - LingProg III - JAVA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_aula"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_professor"
+                    android:text="ZEM - L2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:text="07:40 | 09:20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_hora"
+                    android:gravity="right"
+                    android:textStyle="normal|italic"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/colorAccent"/>
+            </TableRow>
+
+        </LinearLayout>
+
+    </TableRow>
+</LinearLayout>
