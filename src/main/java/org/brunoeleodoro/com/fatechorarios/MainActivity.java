@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 fill(spinner.getSelectedItemPosition() + 2);
             }
-
+            //changed
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
 
