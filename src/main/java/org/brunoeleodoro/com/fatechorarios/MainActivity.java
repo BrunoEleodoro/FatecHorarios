@@ -92,8 +92,35 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //spinner.getBackground().setColorFilter(Color.parseColor("#ffffff"), PorterDuff.Mode.SRC_ATOP);
+        mensagemTriste();
     }
-
+    public void mensagemTriste()
+    {
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+        dialog.setTitle("Aviso");
+        dialog.setIcon(R.mipmap.ic_launcher);
+        dialog.setMessage("Não há mais suporte para este aplicativo.\n\nÉ recomendado que você baixe o aplicativo" +
+                "da Fatec, que tem mais recursos e horários atualizados.");
+        dialog.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+        dialog.setPositiveButton("BAIXAR APP", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=org.brunoeleodoro.com.fatecamericana")));
+                }
+                catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=org.brunoeleodoro.com.fatecamericana")));
+                }
+                dialogInterface.dismiss();
+            }
+        });
+        dialog.show();
+    }
     public int indexOf(int day) {
         int res = 0;
         res = dias.indexOf(day);

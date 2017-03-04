@@ -7,7 +7,7 @@ android {
         applicationId "org.brunoeleodoro.com.fatechorarios"
         minSdkVersion 10
         targetSdkVersion 25
-        versionCode 4
+        versionCode 5
         versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
